@@ -11,7 +11,6 @@ void main()
   printf("The address of b is %p\n",&b);
   printf("The value of a is %d\n",*b);
   printf("The garbage value of a1 is %p",a1);
-  getch();
 }
 
 
