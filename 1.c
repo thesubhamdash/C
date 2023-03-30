@@ -1,16 +1,12 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 void main()
 {
-  printf("Lets learn about pointer\n");
-  int a=69;
-  int* b=&a;
-  int* a1=NULL;
-  printf("The address of a is %p\n",&a);
-  printf("The address of a is %p\n",b);
-  printf("The address of b is %p\n",&b);
-  printf("The value of a is %d\n",*b);
-  printf("The garbage value of a1 is %p",a1);
+    printf("Lets Learn about pointer\n");
+    int a=69;
+    printf("The value of a is %d\n",a);
+    int* b=&a;
+    printf("The Address of a is %d\n",b);
+    char c=getch();
+    printf("char c is %c",c);
 }
-
-
