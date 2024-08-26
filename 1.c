@@ -7,4 +7,4 @@ void main()
     char a="Hi";
     printf("%s", a);
     getch();
-} 
+}
