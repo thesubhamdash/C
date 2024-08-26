@@ -9,6 +9,9 @@ int main (){
 
 //recursive function
 int fact (int n) {
+    // The if statement below is BASE CASE of Recursion
+    //If the base case is not written in the recursion, stack overflows
+    //i.e. the memory is completely filled and the program terminates.
     if (n==1){
         return 1;
     }
