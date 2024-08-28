@@ -15,4 +15,9 @@ int main()
     printf("%u\n", &age);   // "&" prints the address where the integer value is stored 
     printf("%u\n", ptr);    // prints the address of the stored variable as "ptr" is a pointer variable
     printf("%p\n", &ptr);   // prints the address of the pointer variable that stores the address of another variable.
+
+    //All of the statements below give the same result --> 22
+    printf("%d\n", age);
+    printf("%d\n", *ptr);
+    printf("%d\n", *(&age));
 }
