@@ -3,14 +3,14 @@
 int main(){
     float Fah,Cel;
     int a;
-    printf("Enter Temperaturre in Celcius(1) or Fahrenheit(2)?: ");
+    printf("Enter Temperature in Celcius(1) or Fahrenheit(2)?: ");
     scanf("%d", &a);
     switch (a){
         case 1:
-            printf("Enter a temp in Cecius: ");
+            printf("Enter a temp in Celcius: ");
             scanf("%f", &Cel);
             Fah = ((9*Cel)/5)+32;
-            printf("Temp in Fahrenheit is: %f\n", Fah);
+            printf("Temp in Fahrenheit is: %f\n", Fah); 
             break;
     
         case 2:
