@@ -17,3 +17,9 @@ int main()
     fclose(fptr);
     return 0;
 }
+
+// NIT
+// ROURKELA
+// Odisha
+// India
+// 769008
