@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main(){
-    int a,b,c,d;
+    int a,b,c,n;
+    printf("Enter the no. of terms for the series: ");
+    scanf("%d", &n);
     a=0;
     b=1;
     printf("%d ", a);
     printf("%d ", b);
-    for (int i = 2; i < 10; i++)
+    for (int i = 2; i < n; i++)
     {
         c = a + b;
         printf("%d ", c);
