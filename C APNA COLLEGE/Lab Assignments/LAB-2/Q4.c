@@ -11,12 +11,12 @@ int main(){
             printf("The addtion of two entered numbers is: %d\n", add);
             break;
         case 2:
-            add = a - b;
-            printf("The subtraction of two entered numbers is: %d\n", add);
+            sub = a - b;
+            printf("The subtraction of two entered numbers is: %d\n", sub);
             break;
         case 3:
-            add = a * b;
-            printf("The multiplication of two entered numbers is: %d\n", add);
+            mul = a * b;
+            printf("The multiplication of two entered numbers is: %d\n", mul);
             break;
         case 4:
             div = a / b;

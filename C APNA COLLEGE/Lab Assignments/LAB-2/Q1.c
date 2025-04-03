@@ -7,6 +7,7 @@ int main(){
     int num = n;
     while (n!=0)
     {
+        
         a = n % 10;
         sum = sum*10 + a;
         n /= 10;

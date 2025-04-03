@@ -2,7 +2,7 @@
 int main(){
     int a,b,c,n;
     printf("Enter the no. of terms for the series: ");
-    scanf("%d", &n);
+    scanf("%d",&n);
     a=0;
     b=1;
     printf("%d ", a);
