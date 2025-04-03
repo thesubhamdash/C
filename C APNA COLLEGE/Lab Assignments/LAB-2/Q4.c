@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    int a,b,add,sub,mul,div,c;
+    int a,b,add,sub,mul,div,rem,c;
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
-    printf("Enter case: add(1), subtract(2), multiply(3), divide(4): ");
+    printf("Enter case: add(1), subtract(2), multiply(3), divide(4), remainder(5): ");
     scanf("%d", &c);
     switch (c){
         case 1:
@@ -21,6 +21,10 @@ int main(){
         case 4:
             div = a / b;
             printf("The division of two entered numbers is: %d\n", div);
+            break;
+        case 5:
+            rem = a % b;
+            printf("The remainder of two entered numbers is: %d\n", rem);
             break;
         default:
             printf("Invalid");
