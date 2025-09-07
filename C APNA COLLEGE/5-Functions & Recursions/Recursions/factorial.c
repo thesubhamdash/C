@@ -11,7 +11,7 @@ int main(){
 
 int fact(int n){
     int factorial=1;
-    if(n == 0 || n == 1){
+    if(n == 0){
         return 1;
     }
     factorial *= fact(n-1) * n;
